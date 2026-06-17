@@ -2,7 +2,7 @@
 
 A gamified productivity app where your virtual pet grows as you complete daily tasks. Built with vanilla JavaScript, Node.js, Express, and MongoDB Atlas — featuring real-time cloud sync, offline support, and a global leaderboard.
 
-🌐 **Live App → [grindpet.vercel.app](https://grindpet.vercel.app)**
+🌐 **Live App → [taskmate-frontend-lac.vercel.app](https://taskmate-frontend-lac.vercel.app)**
 
 ---
 
@@ -57,7 +57,7 @@ A gamified productivity app where your virtual pet grows as you complete daily t
 ## 📁 Project Structure
 
 ```
-GrindPet/
+TaskMate/
 ├── Frontend/
 │   ├── index.html       # Main UI
 │   ├── app.js           # All frontend logic
@@ -81,8 +81,8 @@ The app is fully deployed on **Vercel** across two projects:
 
 | Service | URL |
 |---------|-----|
-| Frontend | [grindpet.vercel.app](https://grindpet.vercel.app) |
-| Backend API | [grindpet-backend.vercel.app/api](https://grindpet-backend.vercel.app/api) |
+| Frontend | [taskmate-frontend-lac.vercel.app](https://taskmate-frontend-lac.vercel.app) |
+| Backend API | [tasknate-backend.vercel.app/api](https://tasknate-backend.vercel.app/api) |
 
 **Environment variables** are configured directly in the Vercel dashboard (not in any committed file):
 
@@ -90,7 +90,6 @@ The app is fully deployed on **Vercel** across two projects:
 |----------|-------------|
 | `MONGODB_URI` | MongoDB Atlas connection string |
 | `JWT_SECRET` | Secret key for signing JWT tokens |
-| `PORT` | Set automatically by Vercel |
 
 > ⚠️ The `.env` file is listed in `.gitignore` and is never pushed to GitHub.
 
@@ -137,8 +136,8 @@ The app is fully deployed on **Vercel** across two projects:
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/grindpet.git
-cd grindpet
+git clone https://github.com/VanshGupta77/TaskMate.git
+cd TaskMate
 ```
 
 ### 2. Install dependencies
@@ -155,7 +154,7 @@ cp .env.example .env
 Open `.env` and fill in your own values:
 ```env
 PORT=3001
-MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/grindpet?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/taskmate?retryWrites=true&w=majority
 JWT_SECRET=your_long_random_secret_key
 ```
 
@@ -167,14 +166,14 @@ node server.js
 You should see:
 ```
 MongoDB Connected
-GrindPet Server running on port 3001
+TaskMate Server running on port 3001
 API URL: http://localhost:3001/api
 ```
 
 > If you see `MongoDB Error`, check your `MONGODB_URI` and make sure your current IP is whitelisted in MongoDB Atlas → Network Access → IP Access List.
 
 ### 5. Open the frontend
-Open `Frontend/index.html` with the **Live Server** extension in VS Code, or open it directly in your browser.
+Open `Frontend/index.html` with the **Live Server** extension in VS Code.
 
 > Make sure `API_URL` in `app.js` points to `http://localhost:3001/api` for local development.
 
@@ -195,8 +194,8 @@ Open `Frontend/index.html` with the **Live Server** extension in VS Code, or ope
 
 ## 👨‍💻 Author
 
-**Vansh Gupta**  
-CSE Student | AI/ML Specialization | AKTU  
+**Vansh Gupta**
+CSE Student | AI/ML Specialization | AKTU
 [GitHub](https://github.com/VanshGupta77) · [LinkedIn](https://www.linkedin.com/in/vansh-gupta-5200372a9)
 
 ---
