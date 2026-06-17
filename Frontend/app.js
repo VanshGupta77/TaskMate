@@ -1,7 +1,7 @@
 // ============================================
 // CONFIGURATION - Change this to your API URL
 // ============================================
-const API_URL = 'http://localhost:3001/api';
+const API_URL = 'https://tasknate-backend.vercel.app/api';
 
 // Game Data
 const PETS = {
