@@ -197,7 +197,7 @@ Open `Frontend/index.html` with the **Live Server** extension in VS Code, or ope
 
 **Vansh Gupta**  
 CSE Student | AI/ML Specialization | AKTU  
-[GitHub](https://github.com/VanshGupta77) · [LinkedIn](www.linkedin.com/in/vansh-gupta)
+[GitHub](https://github.com/VanshGupta77) · [LinkedIn](www.linkedin.com/in/vansh-gupta-5200372a9)
 
 ---
 
